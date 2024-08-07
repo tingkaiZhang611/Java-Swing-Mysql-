@@ -4,14 +4,14 @@
 部署方法：
 创建文件夹XueshengGuanli
 将本项目的所有文件放到该文件夹下
-XueshengGuanli
-    |-.idea
-    |-lib
-    |-out
-    |-src
-    |-stu_keshe.sql
-    |-XueshengGuanli.iml
-    |-.gitignore
+    XueshengGuanli
+        |-.idea
+        |-lib
+        |-out
+        |-src
+        |-stu_keshe.sql
+        |-XueshengGuanli.iml
+        |-.gitignore
 
 将文件夹XueshengGuanli项目导入到你使用的IDE中
 
