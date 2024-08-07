@@ -1,6 +1,11 @@
 # Java-Swing-Mysql-
 基于Java语言和Swing组件配合使用MySQL数据库作为数据存储的学生信息管理系统(是我的大一期末课设)。A student information management system based on Java language and Swing components, using MySQL database for data storage (which is my first semester final project)
 
+# 程序注意事项
+程序登录用户名：root
+登录密码：123456
+main方法所在文件：Starter.java
+
 # 中文简体 | 部署方法：
 直接解压XueshengGuanli.zip到XueshengGuanli
 将文件夹XueshengGuanli项目导入到你使用的IDE中
@@ -20,7 +25,17 @@ F:\Java课设\
 例如：
 系统的Path下：你的jkd或jre目录\bin
 
+
+# Program Notes
+
+Program login username: `root`
+
+Login password: `123456`
+
+File containing the `main` method: `Starter.java`
+
 # English | Deployment Instructions:
+
 
 Extract XueshengGuanli.zip directly into the XueshengGuanli folder. Import the XueshengGuanli project folder into your IDE.
 
