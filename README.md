@@ -1,21 +1,11 @@
 # Java-Swing-Mysql-
 基于Java语言和Swing组件配合使用MySQL数据库作为数据存储的学生信息管理系统(是我的大一期末课设)。A student information management system based on Java language and Swing components, using MySQL database for data storage (which is my first semester final project)
 
-部署方法：
-创建文件夹XueshengGuanli
-将本项目的所有文件放到该文件夹下
-    XueshengGuanli
-        |-.idea
-        |-lib
-        |-out
-        |-src
-        |-stu_keshe.sql
-        |-XueshengGuanli.iml
-        |-.gitignore
-
+# 中文简体 | 部署方法：
+直接解压XueshengGuanli.zip到XueshengGuanli
 将文件夹XueshengGuanli项目导入到你使用的IDE中
 
-本项目中的按钮的图标因为时间仓促，使用的是固定目录，所以请将项目中的Graph文件夹中的图片放置在以下文件夹中：
+本项目中的按钮的图标因为时间仓促，使用的是固定目录，所以请将项目中的Button文件夹中的图片放置在以下文件夹中：
 F:\Java课设\
 
 在使用本项目前，请确保你的计算机已经正确配置了Mysql程序。
@@ -30,17 +20,14 @@ F:\Java课设\
 例如：
 系统的Path下：你的jkd或jre目录\bin
 
+# English | Deployment Instructions:
 
-Deployment Instructions:
+Extract XueshengGuanli.zip directly into the XueshengGuanli folder. Import the XueshengGuanli project folder into your IDE.
 
-Create a folder named XueshengGuanli. Place all the files of this project into the XueshengGuanli folder, which should include .idea, lib, out, src, stu_keshe.sql, XueshengGuanli.iml, and .gitignore.
+Due to time constraints, the icons for the buttons in this project use fixed directories. Therefore, please place the images from the Button folder in the project into the following folder: F:\Java课设\.
 
-Import the XueshengGuanli folder project into your IDE.
+Before using this project, ensure that your computer has MySQL properly configured. Once confirmed, import the stu_keshe.sql file from this project into your local MySQL database. For import instructions, refer to: https://blog.csdn.net/web15286201346/article/details/126113541?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522172299096016800213034650%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=172299096016800213034650&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-126113541-null-null.142^v100^pc_search_result_base7&utm_term=mysql%E5%AF%BC%E5%85%A5sql&spm=1018.2226.3001.4187
 
-Due to time constraints, the icons for the buttons in this project use fixed directories. Therefore, please place the images from the Graph folder in the project into the following folder: F:\Java课设\.
+The project already includes the MySQL driver, so no additional setup is needed.
 
-Before using this project, ensure that your computer has MySQL correctly configured. Once verified, import the stu_keshe.sql file from this project into your local MySQL database. For import instructions, refer to: https://blog.csdn.net/web15286201346/article/details/126113541?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522172299096016800213034650%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=172299096016800213034650&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-126113541-null-null.142^v100^pc_search_result_base7&utm_term=mysql%E5%AF%BC%E5%85%A5sql&spm=1018.2226.3001.4187
-
-The project already includes the MySQL driver, so no additional setup is required.
-
-Additionally, we have provided a precompiled .exe file for direct use, so you do not need to import the project into IDEA or set up the original directory images. However, ensure that your Windows system has the Java system environment variable set up. For example, in the system Path: your jdk or jre directory\bin.
+Additionally, we have provided a precompiled .exe file for direct use. You do not need to import the project into IDEA or set up the original directory images, but you must ensure that your Windows system has the Java system environment variable set up. For example, in the system Path: your jdk or jre directory\bin.
